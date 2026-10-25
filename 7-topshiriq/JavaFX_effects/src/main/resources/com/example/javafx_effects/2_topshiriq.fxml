@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx_effects.HelloController">
+   <children>
+      <Circle fx:id="circle1" fill="DODGERBLUE" layoutX="150.0" layoutY="150.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circle2" fill="DODGERBLUE" layoutX="150.0" layoutY="100.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+      <Text fx:id="text1" layoutX="182.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This is test" textAlignment="CENTER" wrappingWidth="165.3367919921875">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="54.0" layoutY="304.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BoxBlur">
+         <font>
+            <Font name="Arial Black" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="52.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GaussianBlur">
+         <font>
+            <Font name="Arial Black" size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="text2" layoutX="220.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This is test">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="52.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MotionBlur">
+         <font>
+            <Font name="Arial Black" size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="text3" layoutX="201.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This is test">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="52.0" layoutY="416.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reflection">
+         <font>
+            <Font name="Arial Black" size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="text4" layoutX="201.0" layoutY="415.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This is test">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="481.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reflection">
+         <font>
+            <Font name="Arial Black" size="22.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="rasm1" fitHeight="223.0" fitWidth="246.0" layoutX="491.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@IMG_20210913_230957_954.PNG" />
+         </image>
+      </ImageView>
+      <Text fill="RED" layoutX="54.0" layoutY="460.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shadow">
+         <font>
+            <Font name="Arial Black" size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="text5" layoutX="212.0" layoutY="459.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This is test">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="rasm2" fitHeight="150.0" fitWidth="200.0" layoutX="65.0" layoutY="527.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@IMG_20210913_230957_954.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rasm4" fitHeight="150.0" fitWidth="200.0" layoutX="508.0" layoutY="527.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@IMG_20210913_230957_954.PNG" />
+         </image>
+      </ImageView>
+      <Text fill="RED" layoutX="30.0" layoutY="501.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ColorAdjust">
+         <font>
+            <Font name="Arial Black" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="512.0" layoutY="501.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Glow">
+         <font>
+            <Font name="Arial Black" size="22.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

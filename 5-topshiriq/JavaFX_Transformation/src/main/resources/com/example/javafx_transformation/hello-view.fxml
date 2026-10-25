@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="615.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to right, skyblue,#00fe77);" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx_transformation.HelloController">
+   <children>
+      <Rectangle fx:id="rec1" arcHeight="5.0" arcWidth="5.0" fill="#ed1fff" height="100.0" layoutX="14.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="rec2" arcHeight="5.0" arcWidth="5.0" fill="#2b1fff" height="100.0" layoutX="14.0" layoutY="137.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="rec3" arcHeight="5.0" arcWidth="5.0" fill="#faff1f" height="100.0" layoutX="14.0" layoutY="258.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="rec4" arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="100.0" layoutX="14.0" layoutY="380.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="rec5" arcHeight="5.0" arcWidth="5.0" fill="#00ff84" height="100.0" layoutX="14.0" layoutY="501.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+   </children>
+</Pane>

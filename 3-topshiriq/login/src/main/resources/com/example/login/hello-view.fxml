@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="326.0" prefWidth="456.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.HelloController">
+   <children>
+      <ImageView fitHeight="333.0" fitWidth="459.0" layoutX="-1.0" layoutY="-2.0">
+         <image>
+            <Image url="@fon.jpg" />
+         </image>
+      </ImageView>
+      <VBox prefHeight="326.0" prefWidth="456.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="102.0" prefWidth="451.0">
+               <children>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Dasturga xush kelibsiz">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+            <HBox alignment="TOP_CENTER" prefHeight="133.0" prefWidth="456.0">
+               <children>
+                  <VBox alignment="BOTTOM_LEFT" prefHeight="118.0" prefWidth="257.0">
+                     <children>
+                        <TextField fx:id="login" promptText="Login">
+                           <font>
+                              <Font name="Times New Roman" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="8.0" left="7.0" right="7.0" top="8.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <Label fx:id="labell" prefHeight="18.0" prefWidth="253.0" textFill="RED">
+                           <VBox.margin>
+                              <Insets bottom="2.0" left="7.0" right="7.0" top="2.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="Times New Roman Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <PasswordField fx:id="password" prefHeight="25.0" prefWidth="200.0" promptText="Password">
+                           <font>
+                              <Font name="Times New Roman" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="8.0" left="7.0" right="7.0" top="8.0" />
+                           </VBox.margin>
+                        </PasswordField>
+                        <Label fx:id="labelp" prefHeight="18.0" prefWidth="260.0" textFill="RED">
+                           <font>
+                              <Font name="Times New Roman Bold" size="13.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="2.0" left="7.0" right="7.0" top="2.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children></HBox>
+            <HBox alignment="CENTER" prefHeight="97.0" prefWidth="456.0">
+               <children>
+                  <Button fx:id="submit" contentDisplay="TOP" mnemonicParsing="false" onAction="#result" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #02096b; -fx-border-color: white; -fx-border-radius: 15; -fx-background-radius: 15;" text="Kirish" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="5.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="clear" mnemonicParsing="false" onAction="#clearDisplay" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #02096b; -fx-border-color: white; -fx-border-radius: 15; -fx-background-radius: 15;" text="Clear" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children></HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
